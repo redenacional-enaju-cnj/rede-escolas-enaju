@@ -1,0 +1,998 @@
+{
+  "fonte": "Diagnóstico Nacional das Unidades de Formação do Poder Judiciário — base pública homologada 2025/2026",
+  "atualizacao_original": "2026-09-29",
+  "n_unidades": 110,
+  "observacao": "Cadastro de referência, não resultado de cumprimento do Prêmio CNJ 2027. Todos os registros são unidades públicas, sem pessoas ou dados de contato.",
+  "escolas": [
+    {
+      "id": "R042",
+      "nome": "Academia Judicial do Poder Judiciário de Santa Catarina",
+      "orgao": "TJSC",
+      "uf": "SC",
+      "ramo": "Estadual",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://www.tjsc.jus.br/web/academia-judicial"
+    },
+    {
+      "id": "R021",
+      "nome": "Cedap - Centro de Desenvolvimento e Aperfeiçaomento de Servidores",
+      "orgao": "TRF1",
+      "uf": "DF",
+      "ramo": "Federal",
+      "natureza": "Centro/núcleo sem natureza de escola",
+      "site": "Não há site público"
+    },
+    {
+      "id": "R048",
+      "nome": "Centro de Educação Corporativa da Justiça do Trabalho de 1º e de 2º Graus - CEduc-JT",
+      "orgao": "CSJT",
+      "uf": "DF",
+      "ramo": "Superior/Conselho",
+      "natureza": "Setor de capacitação (gestão de pessoas)",
+      "site": "https://ead.csjt.jus.br/"
+    },
+    {
+      "id": "R106",
+      "nome": "Centro de Estudos Judiciários - CEJ/CJF",
+      "orgao": "CJF",
+      "uf": "DF",
+      "ramo": "Superior/Conselho",
+      "natureza": "Centro/núcleo sem natureza de escola",
+      "site": "https://www.cjf.jus.br/cjf/corregedoria-da-justica-federal/centro-de-estudos-judiciarios-1/eventos"
+    },
+    {
+      "id": "R094",
+      "nome": "Centro de Formação de Servidores do Poder Judiciário",
+      "orgao": "TJCE",
+      "uf": "CE",
+      "ramo": "Estadual",
+      "natureza": "Centro/núcleo sem natureza de escola",
+      "site": "https://tjnet/servicos/centro-de-formacao-de-servidores/"
+    },
+    {
+      "id": "R093",
+      "nome": "Centro de Formação e Aperfeiçoamento de Assessores e Servidores do TST ",
+      "orgao": "TST",
+      "uf": "DF",
+      "ramo": "Trabalho",
+      "natureza": "Centro/núcleo sem natureza de escola",
+      "site": "https://www.tst.jus.br/en/cefast"
+    },
+    {
+      "id": "R069",
+      "nome": "Centro de Formação e Desenvolvimento de Pessoas do Poder Judiciário do RS – CJUD/DICAF",
+      "orgao": "TJRS",
+      "uf": "RS",
+      "ramo": "Estadual",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://cjud.tjrs.jus.br/"
+    },
+    {
+      "id": "R101",
+      "nome": "Centro de Formação e Gestão Judiciária (CEFOR)",
+      "orgao": "STJ",
+      "uf": "DF",
+      "ramo": "Superior/Conselho",
+      "natureza": "Centro/núcleo sem natureza de escola",
+      "site": "https://ead.stj.jus.br/  (somente ações de educação a distância)"
+    },
+    {
+      "id": "R103",
+      "nome": "Coordenadoria de Desenvolvimento e da Escola de Capacitação dos Servidores da JMU",
+      "orgao": "STM",
+      "uf": "DF",
+      "ramo": "Militar",
+      "natureza": "Setor de capacitação (gestão de pessoas)",
+      "site": "https://ead.stm.jus.br"
+    },
+    {
+      "id": "R033",
+      "nome": "Coordenadoria de Educação e Desenvolvimento",
+      "orgao": "TRE-PI",
+      "uf": "PI",
+      "ramo": "Eleitoral",
+      "natureza": "Setor de capacitação (gestão de pessoas)",
+      "site": "https://eadcoede.tre-pi.jus.br/"
+    },
+    {
+      "id": "R107",
+      "nome": "Coordenadoria de Educação e Desenvolvimento (Coede)/Secretaria de Gestão de Pessoas",
+      "orgao": "TSE",
+      "uf": "DF",
+      "ramo": "Eleitoral",
+      "natureza": "Setor de capacitação (gestão de pessoas)",
+      "site": "educatse.jus.br"
+    },
+    {
+      "id": "R097",
+      "nome": "Divisão de Desenvolvimento de Pessoas, Estratégia e Relatórios",
+      "orgao": "TRF2",
+      "uf": "RJ",
+      "ramo": "Federal",
+      "natureza": "Setor de capacitação (gestão de pessoas)",
+      "site": "https://www10.trf2.jus.br/educa/"
+    },
+    {
+      "id": "R014",
+      "nome": "Divisão de Desenvolvimento Humano",
+      "orgao": "TRF5",
+      "uf": "PE",
+      "ramo": "Federal",
+      "natureza": "Setor de capacitação (gestão de pessoas)",
+      "site": "dgp.desenvolvimento@trf5.jus.br"
+    },
+    {
+      "id": "R028",
+      "nome": "Escola da Magistratura do Estado de Rondônia - Emeron",
+      "orgao": "TJRO",
+      "uf": "RO",
+      "ramo": "Estadual",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://emeron.edu.br"
+    },
+    {
+      "id": "R090",
+      "nome": "Escola da Magistratura do Estado do Espírito Santo  - Emes",
+      "orgao": "TJES",
+      "uf": "ES",
+      "ramo": "Estadual",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://www.tjes.jus.br/emes/"
+    },
+    {
+      "id": "R077",
+      "nome": "Escola da Magistratura do Rio Grande do Norte (Esmarn)",
+      "orgao": "TJRN",
+      "uf": "RN",
+      "ramo": "Estadual",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://esmarn.tjrn.jus.br/"
+    },
+    {
+      "id": "R040",
+      "nome": "Escola de Administração Judiciária",
+      "orgao": "TJRJ",
+      "uf": "RJ",
+      "ramo": "Estadual",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://esaj.tjrj.jus.br/"
+    },
+    {
+      "id": "R063",
+      "nome": "Escola de Capacitação Itair Sá da Silva - ECAISS ",
+      "orgao": "TRT8",
+      "uf": "PA",
+      "ramo": "Trabalho",
+      "natureza": "Setor de capacitação (gestão de pessoas)",
+      "site": "https://www.trt8.jus.br/ecaiss"
+    },
+    {
+      "id": "R041",
+      "nome": "Escola de Formação e Aperfeiçoamento de Servidores-DIES",
+      "orgao": "TRF3",
+      "uf": "SP",
+      "ramo": "Federal",
+      "natureza": "Setor de capacitação (gestão de pessoas)",
+      "site": "https://www.jfsp.jus.br/intranet/escola-servidores"
+    },
+    {
+      "id": "R068",
+      "nome": "Escola de Formação Judiciária do TJDFT - Ministro Luiz Vicente Cernicchiaro (EjuDFT)",
+      "orgao": "TJDFT",
+      "uf": "DF",
+      "ramo": "Estadual",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://www.tjdft.jus.br/institucional/escola"
+    },
+    {
+      "id": "R006",
+      "nome": "ESCOLA DE MAGISTRADOS E SERVIDORES DO TRF4",
+      "orgao": "TRF4",
+      "uf": "RS",
+      "ramo": "Federal",
+      "natureza": "Escola formalmente instituída",
+      "site": "www.trf4.jus.br/emagis"
+    },
+    {
+      "id": "R026",
+      "nome": "Escola de Magistratura ",
+      "orgao": "TRF6",
+      "uf": "MG",
+      "ramo": "Federal",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://portal.trf6.jus.br/formacao/escola-de-magistratura/"
+    },
+    {
+      "id": "R036",
+      "nome": "ESCOLA DE MAGISTRATURA FEDERAL DA 1ª REGIÃO",
+      "orgao": "TRF1",
+      "uf": "DF",
+      "ramo": "Federal",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://ead.trf1.jus.br/esmaf/"
+    },
+    {
+      "id": "R061",
+      "nome": "ESCOLA DE MEDIAÇÃO DO ESTADO DO RIO DE JANEIRO ",
+      "orgao": "TJRJ",
+      "uf": "RJ",
+      "ramo": "Estadual",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://www.tjrj.jus.br/institucional/escola-de-mediacao-emedi"
+    },
+    {
+      "id": "R098",
+      "nome": "Escola dos Servidores do Poder Judiciário de Mato Grosso",
+      "orgao": "TJMT",
+      "uf": "MT",
+      "ramo": "Estadual",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://escoladoservidor.tjmt.jus.br/"
+    },
+    {
+      "id": "R072",
+      "nome": "Escola Judicária Eleitoral de Roraima",
+      "orgao": "TRE-RR",
+      "uf": "RR",
+      "ramo": "Eleitoral",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://www.tre-rr.jus.br/institucional/escola-judiciaria-eleitoral"
+    },
+    {
+      "id": "R027",
+      "nome": "Escola Judicial",
+      "orgao": "TRT15",
+      "uf": "SP",
+      "ramo": "Trabalho",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://trt15.jus.br/institucional/estrutura-do-tribunal/escola-judicial"
+    },
+    {
+      "id": "R023",
+      "nome": "Escola Judicial ",
+      "orgao": "TRT18",
+      "uf": "GO",
+      "ramo": "Trabalho",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://www.trt18.jus.br/portal/institucional/escola/"
+    },
+    {
+      "id": "R084",
+      "nome": "Escola Judicial - EJUD19",
+      "orgao": "TRT19",
+      "uf": "AL",
+      "ramo": "Trabalho",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://site.trt19.jus.br/ejud"
+    },
+    {
+      "id": "R017",
+      "nome": "Escola Judicial de Pernambuco - ESMAPE",
+      "orgao": "TJPE",
+      "uf": "PE",
+      "ramo": "Estadual",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://portal.tjpe.jus.br/web/escolajudicial"
+    },
+    {
+      "id": "R002",
+      "nome": "Escola Judicial de Roraima",
+      "orgao": "TJRR",
+      "uf": "RR",
+      "ramo": "Estadual",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://www.ejurr.tjrr.jus.br"
+    },
+    {
+      "id": "R035",
+      "nome": "Escola Judicial Desembargador Edésio Fernandes",
+      "orgao": "TJMG",
+      "uf": "MG",
+      "ramo": "Estadual",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://ejef.tjmg.jus.br/"
+    },
+    {
+      "id": "R016",
+      "nome": "Escola Judicial do Amapá",
+      "orgao": "TJAP",
+      "uf": "AP",
+      "ramo": "Estadual",
+      "natureza": "Escola formalmente instituída",
+      "site": "EJAP"
+    },
+    {
+      "id": "R105",
+      "nome": "Escola Judicial do Estado de Mato Grosso do Sul - EJUD-MS",
+      "orgao": "TJMS",
+      "uf": "MS",
+      "ramo": "Estadual",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://ejud.tjms.jus.br/"
+    },
+    {
+      "id": "R073",
+      "nome": "Escola Judicial do Estado de Sergipe - Ejuse",
+      "orgao": "TJSE",
+      "uf": "SE",
+      "ramo": "Estadual",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://www.tjse.jus.br/ejuse/"
+    },
+    {
+      "id": "R020",
+      "nome": "escola Judicial do paraná",
+      "orgao": "TJPR",
+      "uf": "PR",
+      "ramo": "Estadual",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://ejud.tjpr.jus.br/"
+    },
+    {
+      "id": "R037",
+      "nome": "ESCOLA JUDICIAL DO PODER JUDICIÁRIO DO ESTADO DO PARÁ - EJPA",
+      "orgao": "TJPA",
+      "uf": "PA",
+      "ramo": "Estadual",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://ejpa.tjpa.jus.br/novo/#/"
+    },
+    {
+      "id": "R085",
+      "nome": "Escola Judicial do Tribunal de Justiça do Amazonas",
+      "orgao": "TJAM",
+      "uf": "AM",
+      "ramo": "Estadual",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://www.tjam.jus.br/index.php/ejud"
+    },
+    {
+      "id": "R010",
+      "nome": "Escola Judicial do Tribunal de Justiça do Estado de Goiás",
+      "orgao": "TJGO",
+      "uf": "GO",
+      "ramo": "Estadual",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://www.tjgo.jus.br/index.php/institucional/escola-judicial"
+    },
+    {
+      "id": "R053",
+      "nome": "Escola Judicial do Tribunal Regional da 20a Região",
+      "orgao": "TRT20",
+      "uf": "SE",
+      "ramo": "Trabalho",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://www.trt20.jus.br/ejud"
+    },
+    {
+      "id": "R076",
+      "nome": "Escola Judicial do Tribunal Regional da Trabalho da 11ª Região",
+      "orgao": "TRT11",
+      "uf": "AM",
+      "ramo": "Trabalho",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://portal.trt11.jus.br/index.php/ejud"
+    },
+    {
+      "id": "R031",
+      "nome": "Escola Judicial do Tribunal Regional do Trabalho da 10ª Região",
+      "orgao": "TRT10",
+      "uf": "DF",
+      "ramo": "Trabalho",
+      "natureza": "Escola formalmente instituída",
+      "site": "http://escolajudicial.trt10.jus.br/"
+    },
+    {
+      "id": "R058",
+      "nome": "ESCOLA JUDICIAL DO TRIBUNAL REGIONAL DO TRABALHO DA 13ª REGIÃO",
+      "orgao": "TRT13",
+      "uf": "PB",
+      "ramo": "Trabalho",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://trt13.jus.br/institucional/ejud"
+    },
+    {
+      "id": "R018",
+      "nome": "Escola Judicial do Tribunal Regional do Trabalho da 14ª Região ",
+      "orgao": "TRT14",
+      "uf": "RO",
+      "ramo": "Trabalho",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://www.trt14.jus.br/portal/escola-judicial"
+    },
+    {
+      "id": "R025",
+      "nome": "Escola Judicial do Tribunal Regional do Trabalho da 16ª Região",
+      "orgao": "TRT16",
+      "uf": "MA",
+      "ramo": "Trabalho",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://www.trt16.jus.br/unidades/escola-judicial"
+    },
+    {
+      "id": "R065",
+      "nome": "Escola Judicial do Tribunal Regional do Trabalho da 17a Região",
+      "orgao": "TRT17",
+      "uf": "ES",
+      "ramo": "Trabalho",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://www.trt17.jus.br/web/escola-judicial"
+    },
+    {
+      "id": "R050",
+      "nome": "Escola Judicial do Tribunal Regional do Trabalho da 23ª Região",
+      "orgao": "TRT23",
+      "uf": "MT",
+      "ramo": "Trabalho",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://portal.trt23.jus.br/portal/ejud"
+    },
+    {
+      "id": "R089",
+      "nome": "Escola Judicial do Tribunal Regional do Trabalho da 2a. Região",
+      "orgao": "TRT2",
+      "uf": "SP",
+      "ramo": "Trabalho",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://ww2.trt2.jus.br/institucional/o-trt-2/escola-judicial/page"
+    },
+    {
+      "id": "R030",
+      "nome": "Escola Judicial do Tribunal Regional do Trabalho da 5ª Região",
+      "orgao": "TRT5",
+      "uf": "BA",
+      "ramo": "Trabalho",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://escolajudicial.trt5.jus.br"
+    },
+    {
+      "id": "R054",
+      "nome": "Escola Judicial do Tribunal Regional do Trabalho da 7ª Região",
+      "orgao": "TRT7",
+      "uf": "CE",
+      "ramo": "Trabalho",
+      "natureza": "Escola formalmente instituída",
+      "site": "www.trt7.jus.br/escolajudicial"
+    },
+    {
+      "id": "R096",
+      "nome": "ESCOLA JUDICIAL DO TRIBUNAL REGIONAL DO TRABALHO DA 9ª REGIÃO",
+      "orgao": "TRT9",
+      "uf": "PR",
+      "ramo": "Trabalho",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://ead.trt9.jus.br/moodle/"
+    },
+    {
+      "id": "R071",
+      "nome": "ESCOLA JUDICIAL DO TRIBUNAL REGIONAL DO TRABALHO DA PRIMEIRA REGIÃO",
+      "orgao": "TRT1",
+      "uf": "RJ",
+      "ramo": "Trabalho",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://trt1.jus.br/web/guest/escola-judicial/"
+    },
+    {
+      "id": "R062",
+      "nome": "ESCOLA JUDICIAL DO TRT 24ª REGIÃO",
+      "orgao": "TRT24",
+      "uf": "MS",
+      "ramo": "Trabalho",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://www.trt24.jus.br/web/escola-judicial"
+    },
+    {
+      "id": "R082",
+      "nome": "Escola Judicial do TRT da 22ª Região",
+      "orgao": "TRT22",
+      "uf": "PI",
+      "ramo": "Trabalho",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://www.trt22.jus.br/escola-judicial"
+    },
+    {
+      "id": "R083",
+      "nome": "ESCOLA JUDICIAL DO TRT DA 6ª REGIÃO (EJUD-6)",
+      "orgao": "TRT6",
+      "uf": "PE",
+      "ramo": "Trabalho",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://portal-ej.trt6.jus.br/"
+    },
+    {
+      "id": "R059",
+      "nome": "ESCOLA JUDICIAL DO TRT DA 8ª REGIÃO (EJUD8)",
+      "orgao": "TRT8",
+      "uf": "PA",
+      "ramo": "Trabalho",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://www.trt8.jus.br/escola-judicial"
+    },
+    {
+      "id": "R044",
+      "nome": "Escola Judicial do TRT12",
+      "orgao": "TRT12",
+      "uf": "SC",
+      "ramo": "Trabalho",
+      "natureza": "Escola formalmente instituída",
+      "site": "escolajudicial@trt12.jus.br"
+    },
+    {
+      "id": "R100",
+      "nome": "Escola Judicial do TRT4",
+      "orgao": "TRT4",
+      "uf": "RS",
+      "ramo": "Trabalho",
+      "natureza": "Escola formalmente instituída",
+      "site": "www.trt4.jus.br/portais/escola"
+    },
+    {
+      "id": "R051",
+      "nome": "Escola Judicial dos Servidores - EJUS",
+      "orgao": "TJSP",
+      "uf": "SP",
+      "ramo": "Estadual",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://www.tjsp.jus.br/ejus/"
+    },
+    {
+      "id": "R067",
+      "nome": "Escola Judicial Militar",
+      "orgao": "TJMMG",
+      "uf": "MG",
+      "ramo": "Militar",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://ejm.tjmmg.jus.br/"
+    },
+    {
+      "id": "R013",
+      "nome": "Escola Judiciária do Estado do Piauí (EJUD/TJPI)",
+      "orgao": "TJPI",
+      "uf": "PI",
+      "ramo": "Estadual",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://www.tjpi.jus.br/portaltjpi/ejud/"
+    },
+    {
+      "id": "R012",
+      "nome": "Escola Judiciária Eleitoral",
+      "orgao": "TRE-MT",
+      "uf": "MT",
+      "ramo": "Eleitoral",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://www.tre-mt.jus.br/institucional/eje/apresentacao"
+    },
+    {
+      "id": "R108",
+      "nome": "Escola Judiciária Eleitoral (EJE)",
+      "orgao": "TSE",
+      "uf": "DF",
+      "ramo": "Eleitoral",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://eadeje.tse.jus.br/"
+    },
+    {
+      "id": "R043",
+      "nome": "Escola Judiciária Eleitoral Cearense - EJEC",
+      "orgao": "TRE-CE",
+      "uf": "CE",
+      "ramo": "Eleitoral",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://www.tre-ce.jus.br/institucional/escola-judiciaria-eleitoral-cearense/apresentacao"
+    },
+    {
+      "id": "R047",
+      "nome": "Escola Judiciária Eleitoral Celina Guimarães Viana do Rio Grande do Norte",
+      "orgao": "TRE-RN",
+      "uf": "RN",
+      "ramo": "Eleitoral",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://educa.tre-rn.jus.br/"
+    },
+    {
+      "id": "R110",
+      "nome": "Escola Judiciária Eleitoral da Bahia",
+      "orgao": "TRE-BA",
+      "uf": "BA",
+      "ramo": "Eleitoral",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://eje.tre-ba.jus.br"
+    },
+    {
+      "id": "R034",
+      "nome": "Escola Judiciária Eleitoral da Paraíba \"Des. Flodoardo Lima da Silveira",
+      "orgao": "TRE-PB",
+      "uf": "PB",
+      "ramo": "Eleitoral",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://www.tre-pb.jus.br/institucional/escola-judiciaria-eleitoral/a-eje-pb"
+    },
+    {
+      "id": "R008",
+      "nome": "Escola Judiciária Eleitoral de Alagoas",
+      "orgao": "TRE-AL",
+      "uf": "AL",
+      "ramo": "Eleitoral",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://www.tre-al.jus.br/institucional/escola-judiciaria-eleitoral/escola-judiciaria-eleitoral"
+    },
+    {
+      "id": "R064",
+      "nome": "Escola Judiciária Eleitoral de Goiás Desembargador José Soares de Castro",
+      "orgao": "TRE-GO",
+      "uf": "GO",
+      "ramo": "Eleitoral",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://www.tre-go.jus.br/institucional/escola-judiciaria-eleitoral/escola-judiciaria-eleitoral"
+    },
+    {
+      "id": "R052",
+      "nome": "ESCOLA JUDICIÁRIA ELEITORAL DE MATO GROSSO DO SUL",
+      "orgao": "TRE-MS",
+      "uf": "MS",
+      "ramo": "Eleitoral",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://intranet.tre-ms.jus.br/institucional/unidades/escola-judiciaria"
+    },
+    {
+      "id": "R080",
+      "nome": "Escola Judiciária Eleitoral de Pernambuco",
+      "orgao": "TRE-PE",
+      "uf": "PE",
+      "ramo": "Eleitoral",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://www.tre-pe.jus.br/institucional/escola-judiciaria-eleitoral"
+    },
+    {
+      "id": "R005",
+      "nome": "ESCOLA JUDICIÁRIA ELEITORAL DE RONDÔNIA",
+      "orgao": "TRE-RO",
+      "uf": "RO",
+      "ramo": "Eleitoral",
+      "natureza": "Centro/núcleo sem natureza de escola",
+      "site": "https://www.tre-ro.jus.br/institucional/escola-judiciaria-eleitoral/escola-judiciaria"
+    },
+    {
+      "id": "R099",
+      "nome": "Escola Judiciária Eleitoral de Santa Catarina",
+      "orgao": "TRE-SC",
+      "uf": "SC",
+      "ramo": "Eleitoral",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://www.tre-sc.jus.br/institucional/escola-judiciaria-eleitoral/apresentacao"
+    },
+    {
+      "id": "R045",
+      "nome": "Escola Judiciária Eleitoral de Sergipe",
+      "orgao": "TRE-SE",
+      "uf": "SE",
+      "ramo": "Eleitoral",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://www.tre-se.jus.br/institucional/escola-judiciaria-eleitoral/escola-judiciaria-eleitoral-de-sergipe"
+    },
+    {
+      "id": "R070",
+      "nome": "Escola Judiciária Eleitoral Desembargador Roberto Felinto",
+      "orgao": "TRE-RJ",
+      "uf": "RJ",
+      "ramo": "Eleitoral",
+      "natureza": "Escola formalmente instituída",
+      "site": "eje@tre-rj.jus.br"
+    },
+    {
+      "id": "R001",
+      "nome": "ESCOLA JUDICIÁRIA ELEITORAL DO AMAPÁ",
+      "orgao": "TRE-AP",
+      "uf": "AP",
+      "ramo": "Eleitoral",
+      "natureza": "Escola formalmente instituída",
+      "site": "www.tre-ap.jus.br"
+    },
+    {
+      "id": "R055",
+      "nome": "Escola Judiciária Eleitoral do Amazonas (EJE/AM)",
+      "orgao": "TRE-AM",
+      "uf": "AM",
+      "ramo": "Eleitoral",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://www.tre-am.jus.br/institucional/04-escola-judiciaria"
+    },
+    {
+      "id": "R092",
+      "nome": "Escola Judiciária Eleitoral do Distrito Federal \"Rui Barbosa\"",
+      "orgao": "TRE-DF",
+      "uf": "DF",
+      "ramo": "Eleitoral",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://www.tre-df.jus.br/institucional/escola-judiciaria-eleitoral/escola-judiciaria-eleitoral-do-distrito-federal-rui-barbosa"
+    },
+    {
+      "id": "R004",
+      "nome": "Escola Judiciária Eleitoral do Espírito Santo \"Desembargador Antônio José Miguel Feu Rosa\"",
+      "orgao": "TRE-ES",
+      "uf": "ES",
+      "ramo": "Eleitoral",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://www.tre-es.jus.br/institucional/eje/inicial"
+    },
+    {
+      "id": "R009",
+      "nome": "Escola Judiciária Eleitoral do Maranhão",
+      "orgao": "TRE-MA",
+      "uf": "MA",
+      "ramo": "Eleitoral",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://www.tre-ma.jus.br/institucional/escola-judiciaria-eleitoral-do-maranhao/escola-judiciaria-eleitoral"
+    },
+    {
+      "id": "R003",
+      "nome": "Escola Judiciária Eleitoral do Pará",
+      "orgao": "TRE-PA",
+      "uf": "PA",
+      "ramo": "Eleitoral",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://www.tre-pa.jus.br/"
+    },
+    {
+      "id": "R019",
+      "nome": "Escola Judiciária Eleitoral do Paraná",
+      "orgao": "TRE-PR",
+      "uf": "PR",
+      "ramo": "Eleitoral",
+      "natureza": "Escola formalmente instituída",
+      "site": "www.eje.tre-pr.jus.br"
+    },
+    {
+      "id": "R029",
+      "nome": "Escola Judiciária Eleitoral do Piauí ",
+      "orgao": "TRE-PI",
+      "uf": "PI",
+      "ramo": "Eleitoral",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://eadeje.tre-pi.jus.br/"
+    },
+    {
+      "id": "R015",
+      "nome": "Escola Judiciária Eleitoral Ministro Humberto Gomes de Barros",
+      "orgao": "TRE-TO",
+      "uf": "TO",
+      "ramo": "Eleitoral",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://www.tre-to.jus.br/institucional/escola-judiciaria-eleitoral/escola-judiciaria-eleitoral"
+    },
+    {
+      "id": "R011",
+      "nome": "Escola Judiciária Eleitoral Ministro Paulo Brossard de Souza Pinto",
+      "orgao": "TRE-RS",
+      "uf": "RS",
+      "ramo": "Eleitoral",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://ava.tre-rs.jus.br/ejers/"
+    },
+    {
+      "id": "R088",
+      "nome": "Escola Judiciária Eleitoral Ministro Sálvio de Figueiredo Teixeira ",
+      "orgao": "TRE-MG",
+      "uf": "MG",
+      "ramo": "Eleitoral",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://www.tre-mg.jus.br/institucional/escola-judiciaria-eleitoral/ejemg"
+    },
+    {
+      "id": "R102",
+      "nome": "Escola Judiciária Eleitoral Paulista (EJEP)",
+      "orgao": "TRE-SP",
+      "uf": "SP",
+      "ramo": "Eleitoral",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://www.tre-sp.jus.br/institucional/ejep/EJEP"
+    },
+    {
+      "id": "R109",
+      "nome": "Escola Judiciária Evandro Marques de Sousa",
+      "orgao": "TRE-AC",
+      "uf": "AC",
+      "ramo": "Eleitoral",
+      "natureza": "Centro/núcleo sem natureza de escola",
+      "site": "https://www.tre-ac.jus.br/institucional/escola-judiciaria-eleitoral/a-escola"
+    },
+    {
+      "id": "R007",
+      "nome": "Escola Judiciária Militar do Estado de SP",
+      "orgao": "TJMSP",
+      "uf": "SP",
+      "ramo": "Militar",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://www.tjmsp.jus.br/escola-judiciaria-militar/"
+    },
+    {
+      "id": "R056",
+      "nome": "Escola Juiz Coronel Antonio Claudio Barcellos de Abreu",
+      "orgao": "TJMRS",
+      "uf": "RS",
+      "ramo": "Militar",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://www.tjmrs.jus.br/escola/"
+    },
+    {
+      "id": "R022",
+      "nome": "Escola Nacional de Formação e Aperfeiçoamento de Magistrados da Justiça Militar da União",
+      "orgao": "STM",
+      "uf": "DF",
+      "ramo": "Militar",
+      "natureza": "Escola formalmente instituída",
+      "site": "www.enajum.jus.br"
+    },
+    {
+      "id": "R057",
+      "nome": "Escola Superior da Magistratura",
+      "orgao": "TJCE",
+      "uf": "CE",
+      "ramo": "Estadual",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://www.tjce.jus.br/esmec/"
+    },
+    {
+      "id": "R066",
+      "nome": "Escola Superior da Magistratura da Paraíba",
+      "orgao": "TJPB",
+      "uf": "PB",
+      "ramo": "Estadual",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://esma.tjpb.jus.br/"
+    },
+    {
+      "id": "R078",
+      "nome": "Escola Superior da Magistratura do Amazonas",
+      "orgao": "TJAM",
+      "uf": "AM",
+      "ramo": "Estadual",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://www.tjam.jus.br/index.php/esmam-principal"
+    },
+    {
+      "id": "R046",
+      "nome": "Escola Superior da Magistratura do Estado do Maranhão - ESMAM",
+      "orgao": "TJMA",
+      "uf": "MA",
+      "ramo": "Estadual",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://www.tjma.jus.br/site/esmam"
+    },
+    {
+      "id": "R060",
+      "nome": "Escola Superior da Magistratura Tocantinense (ESMAT)",
+      "orgao": "TJTO",
+      "uf": "TO",
+      "ramo": "Estadual",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://www.esmat.tjto.jus.br"
+    },
+    {
+      "id": "R038",
+      "nome": "ESJUD - Escola do Poder Judiciário do Acre",
+      "orgao": "TJAC",
+      "uf": "AC",
+      "ramo": "Estadual",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://esjud.tjac.jus.br/"
+    },
+    {
+      "id": "R049",
+      "nome": "Núcleo da Escola de Servidores - TRF3",
+      "orgao": "TRF3",
+      "uf": "SP",
+      "ramo": "Federal",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://www4.trf3.jus.br/SEGE/"
+    },
+    {
+      "id": "R039",
+      "nome": "SEÇÃO DE CAPACITAÇÃO",
+      "orgao": "TRE-GO",
+      "uf": "GO",
+      "ramo": "Eleitoral",
+      "natureza": "Setor de capacitação (gestão de pessoas)",
+      "site": "nao tem"
+    },
+    {
+      "id": "R104",
+      "nome": "SEÇÃO DE CAPACITAÇÃO",
+      "orgao": "TRE-MA",
+      "uf": "MA",
+      "ramo": "Eleitoral",
+      "natureza": "Setor de capacitação (gestão de pessoas)",
+      "site": "secap@tre-ma.jus.br"
+    },
+    {
+      "id": "R087",
+      "nome": "SEÇÃO DE CAPACITAÇÃO - SECAP",
+      "orgao": "TRE-AM",
+      "uf": "AM",
+      "ramo": "Eleitoral",
+      "natureza": "Setor de capacitação (gestão de pessoas)",
+      "site": "SECAP@TRE-AM.JUS.BR"
+    },
+    {
+      "id": "R075",
+      "nome": "SEÇÃO DE DESENVOLVIMENTO DE COMPETÊNCIAS - SEDEC",
+      "orgao": "TRE-SE",
+      "uf": "SE",
+      "ramo": "Eleitoral",
+      "natureza": "Setor de capacitação (gestão de pessoas)",
+      "site": "https://www.tre-se.jus.br/transparencia-e-prestacao-de-contas/plano-anual-de-capacitacao-do-tre-se"
+    },
+    {
+      "id": "R081",
+      "nome": "SEÇÃO DE DESENVOLVIMENTO ORGANIZACIONAL E CAPACITAÇÃO",
+      "orgao": "TRE-PE",
+      "uf": "PE",
+      "ramo": "Eleitoral",
+      "natureza": "Setor de capacitação (gestão de pessoas)",
+      "site": "https://www.tre-pe.jus.br/"
+    },
+    {
+      "id": "R074",
+      "nome": "SEÇÃO DE DESENVOLVIMENTO ORGANIZACIONAL E CAPACITAÇÃO - SEDES",
+      "orgao": "TRE-CE",
+      "uf": "CE",
+      "ramo": "Eleitoral",
+      "natureza": "Setor de capacitação (gestão de pessoas)",
+      "site": "NÃO SE APLICA"
+    },
+    {
+      "id": "R091",
+      "nome": "Seção de Educação Corporativa - SEDCOR",
+      "orgao": "TRE-RJ",
+      "uf": "RJ",
+      "ramo": "Eleitoral",
+      "natureza": "Setor de capacitação (gestão de pessoas)",
+      "site": "não se aplica, não há site da Unidade. "
+    },
+    {
+      "id": "R095",
+      "nome": "SEÇÃO DE GESTÃO DO CONHECIMENTO E SEÇÃO DE EDUCAÇÃO A DISTÂNCIA",
+      "orgao": "TRE-SP",
+      "uf": "SP",
+      "ramo": "Eleitoral",
+      "natureza": "Setor de capacitação (gestão de pessoas)",
+      "site": "https://moodle.tre-sp.jus.br/moodle/local/login/index.php"
+    },
+    {
+      "id": "R024",
+      "nome": "SECAP/COEDE - Seção de Capacitação / Coordenadoria de Educação e Desenvolvimento",
+      "orgao": "TRE-TO",
+      "uf": "TO",
+      "ramo": "Eleitoral",
+      "natureza": "Setor de capacitação (gestão de pessoas)",
+      "site": "https://escolavirtual.tre-to.jus.br"
+    },
+    {
+      "id": "R086",
+      "nome": "Secretaria da Escola Judicial",
+      "orgao": "TRT3",
+      "uf": "MG",
+      "ramo": "Trabalho",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://portal.trt3.jus.br/escola"
+    },
+    {
+      "id": "R079",
+      "nome": "Secretaria da Escola Judicial",
+      "orgao": "TRT21",
+      "uf": "RN",
+      "ramo": "Trabalho",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://ead.trt21.jus.br/"
+    },
+    {
+      "id": "R032",
+      "nome": "Universidade Corporativa do Tribunal de Justiça do Estado da Bahia Ministro Hermes Lima",
+      "orgao": "TJBA",
+      "uf": "BA",
+      "ramo": "Estadual",
+      "natureza": "Escola formalmente instituída",
+      "site": "https://www.tjba.jus.br/unicorp/"
+    }
+  ]
+}
