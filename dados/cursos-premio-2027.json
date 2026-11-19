@@ -1,0 +1,279 @@
+{
+  "schema_version": 1,
+  "reference_date": "2026-11-19",
+  "source": "Levantamento técnico preliminar ENAJU para Prêmio CNJ 2027",
+  "notes": "Correspondência temática; publicação do curso ou plano não representa comprovação para o prêmio. Vínculos a validar junto ao DPJ.",
+  "requirements": [
+    {
+      "id": "saude",
+      "art": "Art. 9º, IV, b",
+      "title": "Judicialização da saúde",
+      "scope": "TJs e TRFs",
+      "hours": "12 horas-aula",
+      "critical": "É preciso examinar se o curso aborda efetivamente os precedentes previstos no requisito."
+    },
+    {
+      "id": "assedio",
+      "art": "Art. 9º, V, c–d",
+      "title": "Prevenção ao assédio e à discriminação",
+      "scope": "Todos os tribunais",
+      "hours": "8 horas-aula",
+      "critical": "Curso com tema adequado não comprova sozinho os dois percentuais. Campanhas e semana de combate geram requisitos adicionais."
+    },
+    {
+      "id": "restaurativa",
+      "art": "Art. 9º, VII, a",
+      "title": "Justiça restaurativa",
+      "scope": "Tribunais abrangidos pelo requisito",
+      "hours": "Facilitação específica",
+      "critical": "Curso introdutório sobre fundamentos de Justiça Restaurativa não equivale à formação como facilitador."
+    },
+    {
+      "id": "acessibilidade",
+      "art": "Art. 9º, XII",
+      "title": "Acessibilidade e inclusão",
+      "scope": "Todos os tribunais",
+      "hours": "12 horas-aula para percentuais",
+      "critical": "A ação própria (5 pontos) não se confunde com a formação em parceria para os percentuais (20 pontos)."
+    },
+    {
+      "id": "dh",
+      "art": "Art. 9º, XIII",
+      "title": "Direitos humanos, gênero, raça e etnia",
+      "scope": "Todos, exceto tribunais superiores",
+      "hours": "12 horas-aula",
+      "critical": "Cursos apenas sobre gênero ou apenas sobre raça não atendem isoladamente ao conteúdo conjunto."
+    },
+    {
+      "id": "facilitadores",
+      "art": "Art. 9º, XIV",
+      "title": "Facilitadores de grupos reflexivos",
+      "scope": "Tribunais de Justiça",
+      "hours": "12 horas-aula",
+      "critical": "Formação geral sobre violência doméstica não comprova competência para facilitar grupos reflexivos."
+    },
+    {
+      "id": "equipes",
+      "art": "Art. 9º, XIX",
+      "title": "Equipes técnicas multiprofissionais",
+      "scope": "Tribunais de Justiça",
+      "hours": "Conferir detalhamento do Anexo V",
+      "critical": "A nova redação de 2027 inclui proteção de crianças e adolescentes no ambiente digital; evitar reproduzir os subitens de 2026."
+    },
+    {
+      "id": "sidh",
+      "art": "Art. 9º, XXIV, b",
+      "title": "Sistema Interamericano de Direitos Humanos",
+      "scope": "TJs, TRFs e TRTs",
+      "hours": "12 horas-aula",
+      "critical": "A ausência de qualquer um dos três conteúdos compromete a aderência ao requisito."
+    },
+    {
+      "id": "pena",
+      "art": "Art. 9º, XXV, d",
+      "title": "Pena Justa — formação e currículo",
+      "scope": "TJs e TRFs",
+      "hours": "12 horas-aula por participante",
+      "critical": "As sete temáticas precisam estar comprovadas para pontuação máxima da oferta; a incorporação curricular exige aprovação formal."
+    }
+  ],
+  "resources": [
+    {
+      "id": "of1",
+      "title": "Políticas de Prevenção e de Enfrentamento do Assédio Moral, Sexual e Discriminação",
+      "org": "ENAJU/CNJ",
+      "hours": "11h",
+      "kind": "Curso em catálogo",
+      "state": "Oferta catalogada; confirmar disponibilidade",
+      "url": "https://enaju.cnj.jus.br/ead/course/view.php?id=437",
+      "req": [
+        "assedio"
+      ],
+      "fit": "Aderência temática; comprovação individual e percentuais pendentes",
+      "note": "A carga informada supera 8h; verificar data da turma e público efetivamente certificado."
+    },
+    {
+      "id": "of2",
+      "title": "Liderança Ética — Prevenção e Enfrentamento ao Assédio (2026/1)",
+      "org": "ENAJU/TST",
+      "hours": "6h",
+      "kind": "Curso em catálogo",
+      "state": "Turma 2026/1; período de 2027 não confirmado",
+      "url": "https://enaju.cnj.jus.br/ead/course/info.php?id=395",
+      "req": [
+        "assedio"
+      ],
+      "fit": "Complementar — carga isolada inferior ao mínimo",
+      "note": "Necessita complementação de carga e conferência da data de conclusão."
+    },
+    {
+      "id": "of3",
+      "title": "Avaliação Biopsicossocial da Deficiência — Trilha 1",
+      "org": "ENAJU/CNJ",
+      "hours": "25h",
+      "kind": "Curso em catálogo",
+      "state": "Página de curso publicada",
+      "url": "https://enaju.cnj.jus.br/ead/course/view.php?id=519",
+      "req": [
+        "acessibilidade"
+      ],
+      "fit": "Aderência temática parcial",
+      "note": "Conteúdo aborda deficiência, normas e CIF; não substitui automaticamente capacitação em acessibilidade e inclusão nos termos do prêmio."
+    },
+    {
+      "id": "of4",
+      "title": "Superando o Capacitismo no Setor Público",
+      "org": "ENAP",
+      "hours": "20h",
+      "kind": "Curso externo",
+      "state": "Turmas e certificação para o ciclo devem ser confirmadas",
+      "url": "https://suap.enap.gov.br/vitrine/curso/2386/",
+      "req": [
+        "acessibilidade"
+      ],
+      "fit": "Aderência temática sujeita à ementa e parceria",
+      "note": "Referência para cooperação; confirmar abertura de turma, parceria e condições de pontuação."
+    },
+    {
+      "id": "of5",
+      "title": "Comunicação Social, Judiciário e Diversidade Étnico-Racial",
+      "org": "ENAJU/CNJ",
+      "hours": "14h",
+      "kind": "Curso em catálogo",
+      "state": "Oferta catalogada; confirmar período",
+      "url": "https://enaju.cnj.jus.br/ead/course/view.php?id=436",
+      "req": [
+        "dh"
+      ],
+      "fit": "Componente de raça/etnia — insuficiente isoladamente",
+      "note": "Não comprova, por si só, os quatro conteúdos exigidos no art. 9º, XIII."
+    },
+    {
+      "id": "of6",
+      "title": "Comunicação Social, Judiciário, Gênero e Diversidade",
+      "org": "ENAJU/CNJ",
+      "hours": "10h",
+      "kind": "Curso em catálogo",
+      "state": "Oferta catalogada; confirmar período",
+      "url": "https://enaju.cnj.jus.br/ead/course/view.php?id=436",
+      "req": [
+        "dh"
+      ],
+      "fit": "Componente de gênero — insuficiente isoladamente",
+      "note": "Precisa integrar percurso que comprove direitos humanos, gênero, raça e etnia para o mesmo participante."
+    },
+    {
+      "id": "of7",
+      "title": "Essência da Justiça Restaurativa",
+      "org": "ENAJU/CNJ",
+      "hours": "11h",
+      "kind": "Curso em catálogo",
+      "state": "Oferta catalogada; confirmar período",
+      "url": "https://enaju.cnj.jus.br/ead/course/view.php?id=436",
+      "req": [
+        "restaurativa"
+      ],
+      "fit": "Formação introdutória, não certificação de facilitador",
+      "note": "Não comprova, isoladamente, a habilitação como facilitador exigida no requisito."
+    },
+    {
+      "id": "of8",
+      "title": "Justiça Restaurativa: Fundamentos, Princípios e Valores",
+      "org": "ENFAM",
+      "hours": "20h",
+      "kind": "Curso externo",
+      "state": "Página de pré-inscrição; confirmar turma",
+      "url": "https://www.enfam.jus.br/justica-restaurativa/",
+      "req": [
+        "restaurativa"
+      ],
+      "fit": "Referência conceitual, não comprovação automática de facilitação",
+      "note": "Foco nos fundamentos e princípios; a formação de facilitador deve ser documentada separadamente."
+    },
+    {
+      "id": "of9",
+      "title": "Tomada de Decisão na Audiência de Custódia",
+      "org": "ENAJU/CNJ",
+      "hours": "10h",
+      "kind": "Curso em catálogo",
+      "state": "Oferta catalogada; confirmar período",
+      "url": "https://enaju.cnj.jus.br/ead/course/view.php?id=437",
+      "req": [
+        "pena"
+      ],
+      "fit": "Contribui para uma temática, não completa 12h sozinho",
+      "note": "Pode compor percurso formativo com outros cursos para os mesmos participantes."
+    },
+    {
+      "id": "of10",
+      "title": "I Coletânea de Planos Pedagógicos — Sistema Penal Brasileiro",
+      "org": "CNJ/DMF · Fazendo Justiça",
+      "hours": "Planos pedagógicos",
+      "kind": "Material para adaptação",
+      "state": "Documento oficial publicado em 2026",
+      "url": "https://www.cnj.jus.br/wp-content/uploads/2026/03/coletanea-de-planos-pedagogicos.pdf",
+      "req": [
+        "pena",
+        "facilitadores"
+      ],
+      "fit": "Base pedagógica; não é curso concluído",
+      "note": "Contém planos para as sete temáticas do Pena Justa e formação sobre responsabilização de homens autores de violência; escolas devem ofertar, certificar e aprovar planos próprios."
+    },
+    {
+      "id": "of11",
+      "title": "Capacitação e Formação — Sistema Penal / Fazendo Justiça",
+      "org": "CNJ/DMF",
+      "hours": "Várias modalidades",
+      "kind": "Catálogo institucional",
+      "state": "Página oficial disponível",
+      "url": "https://www.cnj.jus.br/sistema-carcerario/capacitacao-e-formacao/",
+      "req": [
+        "pena"
+      ],
+      "fit": "Banco de ofertas e referenciais; validar curso a curso",
+      "note": "Inclui módulos SEEU, audiências de custódia, inspeções e materiais pedagógicos."
+    },
+    {
+      "id": "of12",
+      "title": "Sistema Interamericano de Direitos Humanos e sua Aplicação na Jurisdição Trabalhista",
+      "org": "EJUD7 / TRT7",
+      "hours": "20h",
+      "kind": "Experiência de escola",
+      "state": "Turma de maio–junho/2026, fora da janela geral de 2027",
+      "url": "https://www.cnj.jus.br/trt7-lanca-pagina-do-sistema-interamericano-de-direitos-humanos-e-controle-de-convencionalidade/",
+      "req": [
+        "sidh"
+      ],
+      "fit": "Referência replicável, não prova para 2027",
+      "note": "Curso documentado em 2026 antes de 1º/8; verificar se houve novas turmas e inclusão da Recomendação 168/2026."
+    },
+    {
+      "id": "of13",
+      "title": "Curso Internacional sobre Cumprimento de Sentenças da Corte IDH",
+      "org": "Corte IDH / IPPDH / ENFAM / CNJ",
+      "hours": "Consultar edição",
+      "kind": "Experiência de escola",
+      "state": "Divulgação em fevereiro/2026; fora da janela geral",
+      "url": "https://www.cnj.jus.br/abertas-as-inscricoes-para-curso-de-formacao-oferecido-pela-corte-interamericana-de-direitos-humanos/",
+      "req": [
+        "sidh"
+      ],
+      "fit": "Referência pedagógica, não comprovação de cumprimento",
+      "note": "Exige verificação da edição de 2027 e da presença dos três conteúdos obrigatórios."
+    },
+    {
+      "id": "of14",
+      "title": "Curso de Capacitação para Utilização do Instrumento de Avaliação Biopsicossocial do BPC",
+      "org": "ENAJU/CNJ",
+      "hours": "40h (trilha prática anunciada)",
+      "kind": "Curso em catálogo",
+      "state": "Calendário em 2026; reoferta a verificar",
+      "url": "https://enaju.cnj.jus.br/ead/course/view.php?id=523",
+      "req": [
+        "equipes"
+      ],
+      "fit": "Competências técnicas afins; requisito próprio não comprovado",
+      "note": "Foco na avaliação biopsicossocial, não necessariamente nas quatro áreas exigidas para equipes multiprofissionais."
+    }
+  ]
+}
