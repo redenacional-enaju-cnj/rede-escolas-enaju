@@ -18,3 +18,10 @@ Para a implantação definitiva, será necessário definir autenticação instit
 ## Publicação e uso local
 
 O GitHub Pages publica `index.html` pela branch `main`, na raiz do repositório. Para visualizar localmente, abra `index.html` em um navegador. Não há dependências nem etapa de compilação.
+
+## Identidade visual e comunidade WhatsApp — 19/11/2026
+
+- Banner institucional enviado pela coordenação, publicado em `assets/rede-enaju-banner.webp` (versão web otimizada, 1200×400 na origem de alta resolução).
+- O portal adota o azul-marinho e o ciano da identidade da Rede ENAJU no menu, nos botões e nos componentes principais.
+- A página inicial apresenta acesso à [Comunidade Rede ENAJU no WhatsApp](https://chat.whatsapp.com/CrWNwS542wh4meKJzJNp1Y) e três grupos identificados: Avisos; Compartilhamentos, Cursos e Tutores; Pesquisa e Inovação.
+- Apenas o convite da comunidade foi fornecido. Os três cards encaminham ao convite geral, sem inventar URLs individuais dos grupos.
