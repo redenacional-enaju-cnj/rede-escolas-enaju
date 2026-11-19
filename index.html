@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#021634">
+  <meta name="theme-color" content="#032B63">
   <meta name="description" content="Rede ENAJU: boas práticas, agenda e perfis profissionais das escolas do Judiciário.">
   <title>Rede ENAJU — Escolas do Judiciário</title>
   <style>
@@ -277,6 +277,74 @@
     @media(max-width:1200px){.topbar{flex-wrap:wrap;padding:10px 18px}.main-nav{order:3;width:100%;justify-content:center;overflow-x:auto}.top-action{margin-left:auto}}
     @media(max-width:790px){.conecta-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.journey-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.explore-menu{grid-template-columns:repeat(2,minmax(0,1fr))}}
     @media(max-width:530px){.rede-banner{padding:22px}.journey-grid,.explore-menu{grid-template-columns:1fr}.journey-head{flex-direction:column;align-items:flex-start}.journey-card{min-height:0}}
+
+    /* Identidade da Rede ENAJU — arte institucional enviada pela coordenação. */
+    :root{
+      --navy:#032B63;
+      --blue:#075FAC;
+      --cyan:#00D8F0;
+      --deep:#031D46;
+      --soft:#E9F8FE;
+      --paper:#F2F7FC;
+      --line:#D9E8F4;
+      --shadow:0 10px 28px rgba(3,29,70,.075);
+    }
+    .topbar{background:rgba(3,31,76,.97);border-bottom:1px solid rgba(0,216,240,.25)}
+    .topbar .brand-copy strong{color:#fff}
+    .topbar .brand-copy small{color:#BDE9FC}
+    .topbar .brand-mark{border-color:var(--cyan);background:radial-gradient(circle at 38% 24%,#075FAA,#031734 80%)}
+    .topbar .brand-mark:before{border-color:var(--cyan)}
+    .topbar .brand-mark:after{background:var(--cyan);box-shadow:-27px 24px 0 #59BBFA}
+    .topbar .nav-link{color:#E3F3FF}
+    .topbar .nav-link:hover{background:rgba(0,216,240,.12);color:#fff}
+    .topbar .nav-link.active{background:rgba(0,216,240,.19);color:#fff;box-shadow:inset 0 -2px 0 var(--cyan)}
+    .topbar .top-action{background:var(--cyan);color:#022B57;box-shadow:none}
+    .topbar .top-action:hover{background:#9AF3FF;color:#032B63}
+    .demo-strip{background:#021837;color:#CFE5FA}
+    .demo-dot{background:var(--cyan);box-shadow:0 0 0 4px rgba(0,216,240,.17)}
+    .eyebrow{color:#0B83B6}
+    .button-primary{background:#006CA7;color:#fff}
+    .button-primary:hover{background:#034C8C}
+    .view-heading h1{color:var(--deep)}
+    .filter-tab.active,.nav-link.active{border-color:#AEDFF5;background:#E6F7FD;color:var(--navy)}
+    .rede-identity-hero{overflow:hidden;margin:0 0 20px;border-radius:18px;background:#032B63;box-shadow:0 13px 32px rgba(2,34,74,.16)}
+    .rede-identity-hero img{display:block;width:100%;height:auto;aspect-ratio:3/1;object-fit:cover}
+    .rede-identity-caption{display:none}
+    .whatsapp-hub{margin:0 0 26px;padding:22px 25px;border:1px solid #A7DDEA;border-radius:18px;background:linear-gradient(115deg,#EDF9FF,#FFF 72%);box-shadow:var(--shadow)}
+    .whatsapp-hub-head{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap}
+    .whatsapp-hub-intro{max-width:650px}
+    .whatsapp-hub .hub-kicker{display:inline-block;margin-bottom:5px;color:#075F91;font-size:11px;font-weight:850;letter-spacing:.12em;text-transform:uppercase}
+    .whatsapp-hub h2{margin:0 0 6px;color:#032B63;font-size:21px}
+    .whatsapp-hub p{margin:0;color:#47667F;font-size:13px;line-height:1.55}
+    .whatsapp-primary{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:45px;padding:10px 18px;border:1px solid #007CA7;border-radius:11px;background:#075D91;color:#fff!important;font-size:13px;font-weight:800;text-align:center;box-shadow:0 6px 15px #0B6FA827}
+    .whatsapp-primary:hover{background:#034A7C}
+    .whatsapp-groups{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:18px}
+    .whatsapp-group{display:flex;flex-direction:column;gap:9px;min-height:164px;padding:16px;border:1px solid #D7EAF5;border-radius:13px;background:#fff}
+    .whatsapp-group:before{content:"";display:block;width:26px;height:4px;border-radius:4px;background:var(--cyan)}
+    .whatsapp-group h3{margin:0;color:#063C74;font-size:15px}
+    .whatsapp-group p{margin:0;color:#627D92;font-size:12px}
+    .whatsapp-group a{align-self:flex-start;margin-top:auto;padding:7px 0;color:#066AA4;font-size:12px;font-weight:800;text-decoration:underline;text-underline-offset:3px}
+    .whatsapp-group a:hover{color:#003F72}
+    .whatsapp-hub-note{margin-top:13px!important;color:#6D8296!important;font-size:11px!important}
+    .feature-banner,.rede-banner{background:linear-gradient(120deg,#031D46,#073D7F 60%,#00639C)}
+    .feature-banner:before,.feature-banner:after{border-color:#00D8F077}
+    .feature-banner:after{background:var(--cyan);box-shadow:50px 65px 0 #54BDEB,-95px 110px 0 #0B7FAF}
+    .network-card{background:linear-gradient(140deg,#021A40,#065A92)}
+    .side-link,.small-link{color:#006BA6}
+    a:focus-visible,button:focus-visible{outline:3px solid #00D8F0;outline-offset:3px}
+    @media(max-width:860px){
+      .whatsapp-groups{grid-template-columns:1fr}
+      .whatsapp-group{min-height:0}
+    }
+    @media(max-width:620px){
+      .rede-identity-hero{margin-bottom:13px;border-radius:13px}
+      .rede-identity-caption{display:block;padding:12px 15px 14px;color:#E4F7FF;font-size:12px;line-height:1.45}
+      .rede-identity-caption strong{display:block;color:#fff;font-size:15px}
+      .whatsapp-hub{padding:18px 16px}
+      .whatsapp-hub-head{align-items:stretch}
+      .whatsapp-primary{width:100%}
+      .whatsapp-hub h2{font-size:18px}
+    }
   </style>
 </head>
 <body>
@@ -293,11 +361,46 @@
       <a class="nav-link" href="checklist-escolas-2027.html">Checklist</a>
       <a class="nav-link" href="mapa-premio-2027.html?tab=cursos&compartilhar=1">Compartilhe seu curso</a>
       <button class="nav-link" type="button" data-view="rede">Explorar a Rede</button>
+      <a class="nav-link" href="#comunidade-whatsapp">Comunidade WhatsApp</a>
     </nav>
     <a class="button button-primary top-action" href="https://enaju.cnj.jus.br/ead/course/view.php?id=574" target="_blank" rel="noopener noreferrer">Rede ENAJU no Moodle ↗</a>
   </header>
 
   <main class="page-wrap" id="inicio">
+
+    <div class="rede-identity-hero" aria-label="Identidade visual da Rede ENAJU">
+      <img src="assets/rede-enaju-banner.webp?v=20261119" width="1200" height="400" alt="Rede ENAJU — Conectando escolas, compartilhando saberes. Rede de Escolas Judiciais e Formação de Servidores, com coordenação da ENAJU." loading="eager" decoding="async" fetchpriority="high">
+      <div class="rede-identity-caption"><strong>Rede ENAJU</strong>Conectando escolas, compartilhando saberes.</div>
+    </div>
+    <section class="whatsapp-hub" id="comunidade-whatsapp" aria-labelledby="whatsapp-hub-title">
+      <div class="whatsapp-hub-head">
+        <div class="whatsapp-hub-intro">
+          <span class="hub-kicker">Participe da Rede</span>
+          <h2 id="whatsapp-hub-title">Comunidade Rede ENAJU no WhatsApp</h2>
+          <p>Conecte-se às escolas, compartilhe cursos e troque experiências nos canais da comunidade.</p>
+        </div>
+        <a class="whatsapp-primary" href="https://chat.whatsapp.com/CrWNwS542wh4meKJzJNp1Y" target="_blank" rel="noopener noreferrer" aria-label="Entrar na comunidade Rede ENAJU no WhatsApp">Entrar na comunidade ↗</a>
+      </div>
+      <div class="whatsapp-groups" aria-label="Grupos da comunidade">
+        <article class="whatsapp-group">
+          <h3>Avisos</h3>
+          <p>Comunicados e informações da Rede ENAJU.</p>
+          <a href="https://chat.whatsapp.com/CrWNwS542wh4meKJzJNp1Y" target="_blank" rel="noopener noreferrer" aria-label="Acessar o grupo Avisos pela comunidade">Acessar pela comunidade ↗</a>
+        </article>
+        <article class="whatsapp-group">
+          <h3>Compartilhamentos, Cursos e Tutores</h3>
+          <p>Troca de ofertas formativas, materiais e oportunidades de colaboração.</p>
+          <a href="https://chat.whatsapp.com/CrWNwS542wh4meKJzJNp1Y" target="_blank" rel="noopener noreferrer" aria-label="Acessar o grupo Compartilhamentos, Cursos e Tutores pela comunidade">Acessar pela comunidade ↗</a>
+        </article>
+        <article class="whatsapp-group">
+          <h3>Pesquisa e Inovação</h3>
+          <p>Pesquisas, iniciativas de inovação e cooperação entre escolas.</p>
+          <a href="https://chat.whatsapp.com/CrWNwS542wh4meKJzJNp1Y" target="_blank" rel="noopener noreferrer" aria-label="Acessar o grupo Pesquisa e Inovação pela comunidade">Acessar pela comunidade ↗</a>
+        </article>
+      </div>
+      <p class="whatsapp-hub-note">O convite disponível é o da comunidade. O acesso a grupos específicos depende das opções apresentadas no WhatsApp; convites individuais ainda não foram informados.</p>
+    </section>
+
     <section class="view active" id="view-feed" data-view-panel="feed" aria-labelledby="feed-title">
       <div class="feed-grid">
         <div class="feed-main">
