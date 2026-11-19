@@ -73,7 +73,7 @@ async function loadCommunity(){
   renderCourses();
  }catch(e){els("communityStatus").textContent="Falha ao consultar propostas públicas ("+e.message+"). O catálogo de referência permanece disponível."}
 }
-function deepLink(){const q=new URLSearchParams(location.search),id=q.get("requisito");if(q.get("tab")==="cursos"||validIds.has(id)){const b=document.querySelector('[data-tab="cursos"]');if(b)b.click();if(validIds.has(id))els("filterReq").value=id;renderCourses()}}
+function deepLink(){const q=new URLSearchParams(location.search),id=q.get("requisito");if(q.get("tab")==="cursos"||validIds.has(id)){const b=document.querySelector('[data-tab="cursos"]');if(b)b.click();if(validIds.has(id)){els("filterReq").value=id;const chk=document.querySelector('#offerRequirements input[value="'+id+'"]');if(chk)chk.checked=true;}renderCourses();if(q.get("compartilhar")==="1"){els("shareSection").hidden=false;els("shareSection").scrollIntoView({behavior:"smooth"})}}}
 populateSchools();loadCommunity();deepLink();
 })();
 </script></body></html>
