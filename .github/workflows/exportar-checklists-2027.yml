@@ -3,6 +3,13 @@ name: Atualizar CSV de autodeclaracoes ENAJU 2027
 on:
   issues:
     types: [opened, edited, reopened, closed]
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/exportar-checklists-2027.yml"
+      - "dados/itens-checklist-2027.json"
+      - "dados/escolas-diagnostico-2025.json"
+      - "scripts/exportar_checklists_csv.py"
   workflow_dispatch:
   schedule:
     - cron: "37 9 * * *"
