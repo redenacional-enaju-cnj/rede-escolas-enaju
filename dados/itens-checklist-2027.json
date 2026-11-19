@@ -1,0 +1,153 @@
+{
+  "versao": 1,
+  "referencia": "Anexo V da Portaria CNJ 554/2026 (2027)",
+  "natureza": "modelo operacional preliminar",
+  "aviso": "Aplicabilidade por ramo é triagem técnica, sujeita à análise do DPJ.",
+  "itens": [
+    {
+      "id": "saude_precedentes",
+      "grupo": "Judicialização da saúde",
+      "art": "Art. 9º, IV, b",
+      "titulo": "Formação sobre precedentes vinculantes em saúde",
+      "detalhe": "Ação com conteúdo específico e carga de 12 horas-aula.",
+      "ramo": [
+        "TJ",
+        "TRF"
+      ]
+    },
+    {
+      "id": "assedio_chefias",
+      "grupo": "Assédio e discriminação",
+      "art": "Art. 9º, V, c",
+      "titulo": "Capacitação de pelo menos 6% das chefias",
+      "detalhe": "Mínimo de 8 horas-aula, identificação das funções de chefia e percentuais do tribunal.",
+      "ramo": [
+        "ALL"
+      ]
+    },
+    {
+      "id": "assedio_magistrados",
+      "grupo": "Assédio e discriminação",
+      "art": "Art. 9º, V, d",
+      "titulo": "Capacitação de pelo menos 6% dos magistrados",
+      "detalhe": "Mínimo de 8 horas-aula e comprovação dos percentuais.",
+      "ramo": [
+        "ALL"
+      ]
+    },
+    {
+      "id": "jr_facilitadores",
+      "grupo": "Justiça restaurativa",
+      "art": "Art. 9º, VII, a",
+      "titulo": "Dois servidores capacitados como facilitadores e com dedicação exclusiva",
+      "detalhe": "Não basta curso introdutório: comprovar formação como facilitador e lotação no núcleo.",
+      "ramo": [
+        "TJ",
+        "TRF",
+        "TRT",
+        "TRE",
+        "TJM",
+        "SUPER"
+      ],
+      "verificar": true
+    },
+    {
+      "id": "acess_propria",
+      "grupo": "Acessibilidade e inclusão",
+      "art": "Art. 9º, XII",
+      "titulo": "Oferta formativa própria do tribunal/escola",
+      "detalhe": "Subitem de oferta institucional, distinto dos percentuais; conferir condições de parceria.",
+      "ramo": [
+        "ALL"
+      ]
+    },
+    {
+      "id": "acess_servidores",
+      "grupo": "Acessibilidade e inclusão",
+      "art": "Art. 9º, XII",
+      "titulo": "Capacitação de pelo menos 7% dos servidores",
+      "detalhe": "12 horas-aula por participante, com comprovação do percentual.",
+      "ramo": [
+        "ALL"
+      ]
+    },
+    {
+      "id": "acess_magistrados",
+      "grupo": "Acessibilidade e inclusão",
+      "art": "Art. 9º, XII",
+      "titulo": "Capacitação de pelo menos 7% dos magistrados",
+      "detalhe": "12 horas-aula por participante, com comprovação do percentual.",
+      "ramo": [
+        "ALL"
+      ]
+    },
+    {
+      "id": "direitos_integrada",
+      "grupo": "Direitos humanos, gênero, raça e etnia",
+      "art": "Art. 9º, XIII",
+      "titulo": "Formação integrada nos quatro conteúdos",
+      "detalhe": "12 horas-aula, conforme condições de formação inicial e continuada; ver Res. 492/2023.",
+      "ramo": [
+        "TJ",
+        "TRF",
+        "TRT",
+        "TRE",
+        "TJM"
+      ]
+    },
+    {
+      "id": "grupos_reflexivos",
+      "grupo": "Violência doméstica",
+      "art": "Art. 9º, XIV",
+      "titulo": "Formação de facilitadores de grupos reflexivos",
+      "detalhe": "12 horas-aula e formação específica para programas com autores de violência.",
+      "ramo": [
+        "TJ"
+      ]
+    },
+    {
+      "id": "equipes_multi",
+      "grupo": "Equipes multiprofissionais",
+      "art": "Art. 9º, XIX",
+      "titulo": "Capacitação de equipes técnicas multiprofissionais",
+      "detalhe": "Identificar profissionais, ementas e carga horária conforme redação integral do Anexo V.",
+      "ramo": [
+        "TJ"
+      ]
+    },
+    {
+      "id": "sidh_curso",
+      "grupo": "Sistema Interamericano de Direitos Humanos",
+      "art": "Art. 9º, XXIV, b",
+      "titulo": "Curso sobre CADH, Corte IDH e Recomendação 168/2026",
+      "detalhe": "12 horas-aula, cobrindo os três temas exigidos.",
+      "ramo": [
+        "TJ",
+        "TRF",
+        "TRT"
+      ]
+    },
+    {
+      "id": "pena_cursos",
+      "grupo": "Pena Justa",
+      "art": "Art. 9º, XXV, d",
+      "titulo": "Oferta de formações nas sete temáticas do Pena Justa",
+      "detalhe": "Para o teto de pontuação da oferta, documentar as sete temáticas; ao menos 12 horas por participante.",
+      "ramo": [
+        "TJ",
+        "TRF"
+      ]
+    },
+    {
+      "id": "pena_curriculo",
+      "grupo": "Pena Justa",
+      "art": "Art. 9º, XXV, d",
+      "titulo": "Inserção formal das temáticas nos planos curriculares das escolas",
+      "detalhe": "Apresentar plano curricular vigente, ementas e evidência de aprovação formal.",
+      "ramo": [
+        "TJ",
+        "TRF"
+      ]
+    }
+  ]
+}
