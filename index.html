@@ -254,6 +254,29 @@
     @media(prefers-reduced-motion:reduce){
       *,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
     }
+
+    /* Integração visual dos eixos apresentados no Moodle e do portal da Rede */
+    .main-nav{gap:2px}.main-nav .nav-link{font-size:11px;padding:9px 10px}.top-action{font-size:11px;white-space:nowrap}
+    .rede-banner{position:relative;overflow:hidden;margin-bottom:13px;padding:28px 30px;border-radius:18px;background:linear-gradient(110deg,#002b61,#003c7a 60%,#06629c);color:white}
+    .rede-banner:before{content:"";position:absolute;right:-65px;top:-130px;width:370px;height:370px;border:1px solid #08b9e765;border-radius:50%;box-shadow:0 0 0 34px #009bd415,0 0 0 72px #009bd409}
+    .rede-banner:after{content:"";position:absolute;right:25%;top:30px;width:9px;height:9px;border-radius:50%;background:#00d0f0;box-shadow:80px 64px 0 #05b9ed,35px 132px 0 #40d5e8}
+    .rede-banner>*{position:relative;z-index:1}.rede-banner .eyebrow{color:#a9e8fd}.rede-banner h1{color:white;font-size:clamp(25px,3vw,35px);max-width:800px;margin-bottom:9px}.rede-banner p{max-width:710px;color:#e1eff8;font-size:13px;margin:0 0 15px}
+    .banner-links{display:flex;flex-wrap:wrap;gap:8px}.banner-links a{background:#fff;color:var(--navy);padding:8px 12px;font-weight:800;font-size:11px;border-radius:9px}.banner-links .alt{border:1px solid #ffffff75;background:transparent;color:white}
+    .conecta{background:white;border:1px solid var(--line);border-radius:16px;padding:15px 16px;margin-bottom:24px}.conecta-header{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin-bottom:11px}.conecta-header h2{font-size:16px;margin:0}.conecta-header p{font-size:11px;color:var(--muted);margin:0}
+    .conecta-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:9px}.conecta-link{display:flex;flex-direction:column;align-items:flex-start;gap:2px;text-align:left;border:1px solid var(--line);border-radius:11px;padding:12px 13px;min-height:95px;background:#fbfdff;cursor:pointer}
+    .conecta-link:hover{border-color:#7fc8e7;background:#effaff}.conecta-link b{font-size:11px;color:var(--cyan)}.conecta-link strong{font-size:12px;color:var(--deep)}.conecta-link small{font-size:10px;color:var(--muted)}
+    .journey-head{display:flex;align-items:end;justify-content:space-between;gap:14px;margin:32px 0 13px}.journey-head h2{font-size:21px;margin-bottom:3px}.journey-head p{font-size:12px;color:var(--muted);margin:0}.journey-head .small-link{font-size:11px;color:var(--blue);font-weight:850}
+    .journey-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.journey-card{display:flex;flex-direction:column;align-items:flex-start;min-height:176px;padding:17px;border:1px solid var(--line);border-radius:15px;background:white;box-shadow:var(--shadow)}
+    .journey-card.soft{background:linear-gradient(130deg,#fff,#ecf7fc);border-color:#bfdfef}.journey-card .kicker{font-size:10px;letter-spacing:.04em;font-weight:800;color:#0084ab}.journey-card h3{margin:7px 0;font-size:16px}.journey-card p{margin-bottom:12px;font-size:11px;color:var(--muted)}
+    .journey-card a,.journey-card button{margin-top:auto;font-weight:800;font-size:11px;color:var(--blue)}.journey-card .cta{display:inline-block;padding:9px 12px;border-radius:9px;background:var(--blue);color:white}
+    .journey-card button{border:0;background:transparent;padding:0;cursor:pointer}
+    .explore-panel{padding:18px;margin-bottom:13px;background:white;border:1px solid var(--line);border-radius:16px}.explore-panel h2{font-size:17px;margin-bottom:4px}.explore-panel>p{font-size:11px;color:var(--muted);margin-bottom:11px}
+    .explore-menu{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}.explore-item{display:flex;flex-direction:column;align-items:flex-start;gap:5px;padding:12px 13px;border:1px solid var(--line);background:#fbfdff;border-radius:11px;min-height:110px}.explore-item strong{font-size:12px;color:var(--navy)}.explore-item span{font-size:10px;color:var(--muted)}.explore-item a,.explore-item button{margin-top:auto;font-size:11px;color:var(--blue);font-weight:800}.explore-item button{border:0;background:none;text-align:left;padding:0;cursor:pointer}
+    .view-rede-head{border-radius:18px;padding:24px;margin-bottom:16px;background:linear-gradient(110deg,#002e68,#0061a2);color:white}.view-rede-head h1{color:white}.view-rede-head .eyebrow{color:#a7ecff}.view-rede-head p{font-size:12px;color:#e0f3fb;margin-bottom:0}
+    .prototype-note{padding:11px 14px;border-left:3px solid var(--cyan);background:#eaf5fb;color:#415b70;border-radius:5px;font-size:11px;margin-top:14px}
+    @media(max-width:1200px){.topbar{flex-wrap:wrap;padding:10px 18px}.main-nav{order:3;width:100%;justify-content:center;overflow-x:auto}.top-action{margin-left:auto}}
+    @media(max-width:790px){.conecta-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.journey-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.explore-menu{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    @media(max-width:530px){.rede-banner{padding:22px}.journey-grid,.explore-menu{grid-template-columns:1fr}.journey-head{flex-direction:column;align-items:flex-start}.journey-card{min-height:0}}
   </style>
 </head>
 <body>
@@ -264,26 +287,25 @@
       <span class="brand-copy"><strong>Rede ENAJU</strong><small>Escolas do Judiciário</small></span>
     </a>
     <nav class="main-nav" aria-label="Navegação principal">
-      <button class="nav-link active" type="button" data-view="feed" aria-current="page">
-        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M4 5h16v14H4z"/><path d="M8 9h8M8 13h5"/></svg> Feed
-      </button>
-      <button class="nav-link" type="button" data-view="praticas">
-        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M4 5h16v14H4z"/><path d="m8 12 2.5 2.5L16 9"/></svg> Boas práticas
-      </button>
-      <button class="nav-link" type="button" data-view="agenda">
-        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 10h18"/></svg> Agenda
-      </button>
-      <a class="nav-link" href="checklist-escolas-2027.html" aria-label="Checklist autodeclaratório por escola do Prêmio CNJ 2027"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="m7 11 2 2 4-5M14 13h4"/></svg> Checklist Escolas</a>
-      <a class="nav-link" href="mapa-premio-2027.html" aria-label="Mapa Nacional de Capacitações para o Prêmio CNJ de Qualidade 2027"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M5 4h14v16H5z"/><path d="M8 8h8M8 12h8M8 16h5"/></svg> Mapa Prêmio 2027</a>
-      <button class="nav-link" type="button" data-view="meu">
-        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg> Meu ENAJU
-      </button>
+      <button class="nav-link active" type="button" data-view="feed" aria-current="page">Feed</button>
+      <button class="nav-link" type="button" data-view="agenda">Agenda</button>
+      <a class="nav-link" href="mapa-premio-2027.html">Prêmio CNJ Qualidade</a>
+      <a class="nav-link" href="checklist-escolas-2027.html">Checklist</a>
+      <a class="nav-link" href="mapa-premio-2027.html?tab=cursos&compartilhar=1">Compartilhe seu curso</a>
+      <button class="nav-link" type="button" data-view="rede">Explorar a Rede</button>
     </nav>
-    <button class="button button-primary" type="button" data-go-profile>＋ Criar perfil</button>
+    <a class="button button-primary top-action" href="https://enaju.cnj.jus.br/ead/course/view.php?id=574" target="_blank" rel="noopener noreferrer">Ambiente Moodle ↗</a>
   </header>
 
   <main class="page-wrap" id="inicio">
     <section class="view active" id="view-feed" data-view-panel="feed" aria-labelledby="feed-title">
+      <div class="rede-banner"><span class="eyebrow">Rede ENAJU · Escolas judiciais e de formação de servidores</span><h1>Conectando escolas,<br>compartilhando saberes.</h1><p>Conecte sua unidade, encontre cursos e oportunidades, compartilhe experiências e participe da produção de conhecimento para o Poder Judiciário.</p><div class="banner-links"><a href="mapa-premio-2027.html?tab=cursos">Encontrar cursos ↗</a><a class="alt" href="https://enaju.cnj.jus.br/ead/course/view.php?id=574" target="_blank" rel="noopener noreferrer">Rede no Moodle ↗</a></div></div>
+      <div class="conecta"><div class="conecta-header"><h2>Conecta Educacional</h2><p>Escolha o que deseja fazer</p></div><div class="conecta-grid">
+        <a class="conecta-link" href="mapa-premio-2027.html?tab=cursos"><b>01</b><strong>Encontrar cursos</strong><small>Ofertas vinculadas a requisitos</small></a>
+        <a class="conecta-link" href="mapa-premio-2027.html?tab=cursos&compartilhar=1"><b>02</b><strong>Registrar oferta</strong><small>Compartilhe um curso da sua escola</small></a>
+        <button class="conecta-link" type="button" data-view="agenda"><b>03</b><strong>Consultar vagas</strong><small>Editais e oportunidades de formação</small></button>
+        <button class="conecta-link" type="button" data-view="meu"><b>04</b><strong>Banco de instrutores</strong><small>Busca de competências · demonstração</small></button>
+      </div></div>
       <div class="feed-grid">
         <div class="feed-main">
           <div class="view-heading">
@@ -311,12 +333,12 @@
           <div class="post-list" id="feed-list">
             <article class="post-card" data-kind="agenda" data-search="reunião nacional escolas poder judiciário 11 novembro 2026 teams">
               <div class="post-inner">
-                <div class="post-top"><span class="avatar green" aria-hidden="true">EN</span><div class="post-author"><strong>Rede ENAJU</strong><small>Encontro confirmado · 11 nov 2026</small></div><span class="post-label featured">11 NOV · 10h</span></div>
+                <div class="post-top"><span class="avatar green" aria-hidden="true">EN</span><div class="post-author"><strong>Rede ENAJU</strong><small>Registro do encontro · 11 nov 2026</small></div><span class="post-label featured">11 NOV · 10h</span></div>
                 <h2 class="post-title">Reunião Nacional das Escolas do Poder Judiciário</h2>
                 <p>Encontro virtual de articulação da rede, às 10h (horário de Brasília), pelo Microsoft Teams. A pauta detalhada segue a convocação encaminhada às escolas.</p>
                 <div class="tag-row"><span class="tag">11/11/2026 · 10h</span><span class="tag">Microsoft Teams</span></div>
               </div>
-              <div class="post-actions"><button class="post-action" type="button" data-event-info="Reunião Nacional das Escolas do Poder Judiciário" data-description="11 de novembro de 2026, às 10h (horário de Brasília), em formato virtual pelo Microsoft Teams. A pauta e os apresentadores devem ser consultados na convocação enviada às escolas.">Ver detalhes</button><span class="post-label">Confirmada</span></div>
+              <div class="post-actions"><button class="post-action" type="button" data-event-info="Reunião Nacional das Escolas do Poder Judiciário" data-description="11 de novembro de 2026, às 10h (horário de Brasília), em formato virtual pelo Microsoft Teams. A pauta e os apresentadores devem ser consultados na convocação enviada às escolas.">Ver detalhes</button><span class="post-label">Realizada em 11/11</span></div>
             </article>
             <article class="post-card" data-kind="agenda" data-search="justiça federal saúde mental servidores novembro dezembro 2026 cjf">
               <div class="post-inner">
@@ -341,17 +363,12 @@
         </div>
 
         <aside class="side-column" aria-label="Acesso rápido">
-          <section class="side-card">
-            <span class="eyebrow">Qualidade 2027 · levantamento técnico</span>
-            <h2>Mapa Nacional de Capacitações</h2>
-            <p>Consulte os requisitos de formação do Prêmio CNJ de Qualidade, cursos localizados, condições de comprovação e lacunas. Sujeito à ratificação do DPJ.</p>
-            <a class="button button-primary" href="mapa-premio-2027.html" style="display:inline-flex;align-items:center;text-decoration:none">Explorar mapa →</a><p style="margin-top:9px"><a href="checklist-escolas-2027.html" style="font-weight:800;color:#00629d">Abrir checklist das escolas →</a></p><p style="margin-top:9px"><a href="mapa-premio-2027.html?tab=cursos" style="font-weight:800;color:#00629d">Cursos vinculados aos requisitos →</a></p><p style="margin-top:9px"><a href="https://script.google.com/macros/s/AKfycbw8U873ah5kAJk_tmpOSgQB1aZLsS6SHSE28m5BTC9NTxofzbE3j5qHW8i3lEv0bTld/exec" target="_blank" rel="noopener noreferrer" style="font-weight:700;color:#00629d">Banco de Cursos de Fábio (Moodle) ↗</a></p>
-          </section>
+          <section class="side-card"><span class="eyebrow">Participação na Rede</span><h2>Encontre e compartilhe.</h2><p>Acompanhe a agenda, as experiências e as oportunidades para escolas e servidores.</p><button class="button button-primary" type="button" data-view="agenda">Ver agenda →</button></section>
           <section class="side-card">
             <div class="side-head"><h2>Agenda da rede</h2><button class="side-link" type="button" data-view="agenda">Ver agenda</button></div>
             <div class="agenda-mini">
               <div class="agenda-row"><span class="agenda-date">11<br>NOV</span><div><strong>Reunião Nacional das Escolas</strong><small>10h · virtual pelo Teams</small></div></div>
-              <div class="agenda-row"><span class="agenda-date">16<br>NOV</span><div><strong>Formação de conciliadores · CJF</strong><small>Próxima turma · servidores indicados</small></div></div>
+              <div class="agenda-row"><span class="agenda-date">16<br>NOV</span><div><strong>Formação de conciliadores · CJF</strong><small>Turma iniciada em 16/11 · CJF/CEJ</small></div></div>
             </div>
           </section>
           <section class="side-card network-card">
@@ -429,7 +446,7 @@
       <div class="event-list" id="event-list">
         <article class="event-card" data-event="encontro" data-search="reunião nacional escolas poder judiciário rede enaju 11 novembro 2026">
           <span class="event-date"><span><b>11 NOV</b>10h · BRT</span></span>
-          <div><span class="post-label featured">Encontro confirmado</span><h3>Reunião Nacional das Escolas do Poder Judiciário</h3><p>Encontro virtual de articulação da rede. A pauta detalhada e os apresentadores devem ser consultados na convocação encaminhada às escolas.</p><div class="event-meta"><span>Microsoft Teams</span><span>11/11/2026 · 10h</span></div></div>
+          <div><span class="post-label featured">Registro do encontro</span><h3>Reunião Nacional das Escolas do Poder Judiciário</h3><p>Encontro virtual de articulação da rede. A pauta detalhada e os apresentadores devem ser consultados na convocação encaminhada às escolas.</p><div class="event-meta"><span>Microsoft Teams</span><span>11/11/2026 · 10h</span></div></div>
           <button class="button button-light" type="button" data-event-info="Reunião Nacional das Escolas do Poder Judiciário" data-description="11 de novembro de 2026, às 10h (horário de Brasília), em formato virtual pelo Microsoft Teams. A pauta e os apresentadores devem ser consultados na convocação enviada às escolas.">Pauta</button>
         </article>
         <article class="event-card" data-event="formacao" data-search="bem estar saúde mental unidades judiciárias servidores justiça federal novembro dezembro">
@@ -439,12 +456,12 @@
         </article>
         <article class="event-card" data-event="formacao" data-search="formação conciliadores justiça federal servidores turma 3 novembro dezembro cjf">
           <span class="event-date"><span><b>16 NOV</b>16 dez</span></span>
-          <div><span class="post-label">Próxima turma · CJF/CEJ</span><h3>Formação de Conciliadores · parte teórica · Turma 3/2026</h3><p>44 horas-aula, EaD com tutoria. Voltada a servidores que atuam em NUPEMECs ou CEJUSCs; participação mediante indicação regional.</p><div class="event-meta"><span>Início em 16/11</span><span>Indicação por NUPEMEC/CEJUSC</span></div></div>
+          <div><span class="post-label">Turma iniciada · CJF/CEJ</span><h3>Formação de Conciliadores · parte teórica · Turma 3/2026</h3><p>44 horas-aula, EaD com tutoria. Voltada a servidores que atuam em NUPEMECs ou CEJUSCs; participação mediante indicação regional.</p><div class="event-meta"><span>Início em 16/11</span><span>Indicação por NUPEMEC/CEJUSC</span></div></div>
           <a class="button button-light" href="https://www.cjf.jus.br/cjf/corregedoria-da-justica-federal/centro-de-estudos-judiciarios-1/eventos/ead-1/forcon-t3-2026" target="_blank" rel="noopener noreferrer">Fonte oficial ↗</a>
         </article>
         <article class="event-card" data-event="formacao" data-search="práticas secretaria módulo cível EJEF TJMG servidores curso inscrições novembro dezembro 2026">
           <span class="event-date"><span><b>20 NOV</b>inscrição</span></span>
-          <div><span class="post-label">Inscrições abertas · EJEF/TJMG</span><h3>Práticas de Secretaria · Módulo Cível · nível básico</h3><p>15 horas, EaD autoinstrucional, realização até 11/12. Inscrições até 20/11; público: servidores e estagiários da 1ª Instância do TJMG.</p><div class="event-meta"><span>Prazo: 20/11</span><span>Vagas conforme edital</span></div></div>
+          <div><span class="post-label">Prazo divulgado: 20/11 · EJEF/TJMG</span><h3>Práticas de Secretaria · Módulo Cível · nível básico</h3><p>15 horas, EaD autoinstrucional, realização até 11/12. Inscrições até 20/11; público: servidores e estagiários da 1ª Instância do TJMG.</p><div class="event-meta"><span>Prazo: 20/11</span><span>Vagas conforme edital</span></div></div>
           <a class="button button-light" href="https://ejef.tjmg.jus.br/2026-09-03-praticas-de-secretaria-modulo-civel-nivel-basico-t1/" target="_blank" rel="noopener noreferrer">Inscrição e edital ↗</a>
         </article>
       </div>
@@ -550,7 +567,7 @@
       </div>
     </section>
 
-    <footer><span><strong>Rede ENAJU</strong> · Escolas e unidades de capacitação do Poder Judiciário</span><span>Protótipo para discussão · curadoria manual de fontes oficiais · consulta em 10/11/2026</span></footer>
+    <footer><span><strong>Rede ENAJU</strong> · Escolas e unidades de capacitação do Poder Judiciário</span><span>Protótipo integrado · proposta do Moodle e fontes oficiais · atualizado em 19/11/2026</span></footer>
   </main>
 
   <dialog id="compose-dialog" aria-labelledby="compose-title">
