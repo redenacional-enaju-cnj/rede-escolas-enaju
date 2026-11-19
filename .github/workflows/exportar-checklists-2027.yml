@@ -1,0 +1,46 @@
+name: Atualizar CSV de autodeclaracoes ENAJU 2027
+
+on:
+  issues:
+    types: [opened, edited, reopened, closed]
+  workflow_dispatch:
+  schedule:
+    - cron: "37 9 * * *"
+
+permissions:
+  contents: write
+  issues: read
+
+concurrency:
+  group: exportar-checklists-enaju-2027
+  cancel-in-progress: false
+
+jobs:
+  exportar:
+    if: github.repository == 'redenacional-enaju-cnj/rede-escolas-enaju'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obter repositorio
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Regenerar CSV a partir das autodeclaracoes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/exportar_checklists_csv.py
+      - name: Publicar snapshot, se houve mudanca
+        run: |
+          git config user.name "enaju-data-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dados/checklist-escolas-2027.csv dados/checklist-escolas-2027-metadata.json
+          if git diff --cached --quiet; then
+            echo "Sem alteracoes para publicar."
+            exit 0
+          fi
+          git commit -m "data: atualiza snapshot das autodeclaracoes do Premio CNJ 2027 [skip ci]"
+          git push origin HEAD:main
