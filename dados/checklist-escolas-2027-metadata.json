@@ -1,12 +1,12 @@
 {
-  "atualizado_em_utc": "2026-11-23T10:38:24Z",
+  "atualizado_em_utc": "2026-11-23T18:42:08Z",
   "origem": "GitHub Issues públicas + cadastro público ENAJU",
   "natureza": "autodeclaracao_nao_homologada",
   "unidades_catalogadas": 110,
   "subitens_cadastrados": 13,
   "linhas_csv": 1430,
-  "unidades_com_declaracao": 0,
-  "linhas_declaradas_cumpridas": 0,
+  "unidades_com_declaracao": 1,
+  "linhas_declaradas_cumpridas": 8,
   "linhas_declaradas_nao_cumpridas": 0,
   "observacao": "Ausência de declaração não significa descumprimento. A classificação de incidência é preliminar."
 }
